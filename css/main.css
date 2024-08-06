@@ -30,6 +30,13 @@
    height: 3rem;
    
  }
+ .opciones:hover{
+    padding: 0.1rem;
+    background-color: rgba(173, 177, 172, 0.69);
+    color: beige;
+    border-radius: 5px;
+    height: 150%;
+}
  .logo-siman{
    width: 30%;
  }
@@ -114,4 +121,13 @@
 }
 .container-descripcion p{
     margin: 50px;
+}
+
+@media (min-width: 768px) and (max-width 1000px){
+    .container-main{
+        flex-basis: 48%;
+       
+        
+    }
+    
 }
