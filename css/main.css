@@ -23,6 +23,7 @@
  .menu{
    display: flex;
    justify-content: space-around;
+   text-decoration: none;
    padding: 1rem;
    background-color: red;
    width: 100%;
@@ -88,5 +89,6 @@
  .container-product h3, p{
     color: black;
  }
+
 
  
