@@ -1,29 +1,44 @@
 :root{
 
-    --color-blanco: white;
- 
- 
- 
- }
- 
- 
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
-  .container-main {
-    position: relative;
-    text-align: center;
-    
-    
-     
-  }
- 
+   --color-blanco: white;
 
-  .logo-siman{
-    width: 30%;
-  }
+
+
+}
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ .container-main {
+   position: relative;
+   text-align: center;
+   
+   
+    
+ }
+
+ .menu{
+   display: flex;
+   justify-content: space-around;
+   padding: 1rem;
+   background-color: red;
+   width: 100%;
+   height: 3rem;
+   
+
+
+   
+ }
+ .logo-siman{
+   width: 30%;
+ }
+ .opciones{
+   text-decoration: none;
+   color: var(--color-blanco);
+   
+ }
+
  
- 
-  
