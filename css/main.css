@@ -4,7 +4,7 @@
 :root{
 
    --color-blanco: white;
-   --color-secundary: #f40712;
+   --color-secundary: #d2d2d2b8;
 
    --primary-font:  "Bebas Neue", sans-serif;
    --secundary-font: "Slabo 27px", serif;
@@ -55,7 +55,7 @@
     text-align: center;
   
  }
- .producto p{
+ .producto {
     object-fit: cover;
     padding: 2rem;
     height: 50%;
@@ -69,10 +69,10 @@
  }
  .card{
     background-color: var(--color-secundary) ;
-    margin: 2rem;
+    margin: 3rem;
     border-radius: 15px;
     padding: 1rem;
-    width: 300px;
+    width: 250px;
     box-shadow: 20px;
     text-align: center;
     text-transform: var(--secundary-font);
@@ -84,6 +84,9 @@
     height: 100%;
     object-fit: cover;
 
+ }
+ .container-product h3, p{
+    color: black;
  }
 
  
